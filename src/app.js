@@ -43,9 +43,9 @@ async function displayAns() {
     .replace(/&nbsp;/g, " ")
     .replace(/<br>/g, " ")
     .replace(/<strong>/g, "");
-  if (test.indexOf("The Deli at the Village Market") == -1) {
-    //var = test.indexOf("<p>", nth term)
-  }
+  displayText();
+}
+function displayText() {
   Sunday = test.indexOf("Menu for Sunday");
   Monday = test.indexOf("Menu for Monday");
   Tuesday = test.indexOf("Menu for Tuesday");
