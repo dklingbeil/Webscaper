@@ -39,6 +39,7 @@ async function displayAns() {
     .replace(/&nbsp;/g, " ")
     .replace(/<br>/g, " ");
   //.replace(/<strong>/g, "");
+
   //Start points
   Sunday = test.indexOf("Menu for Sunday");
   Monday = test.indexOf("Menu for Monday");
